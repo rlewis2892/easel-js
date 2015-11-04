@@ -34,18 +34,21 @@
 		<script src="//code.createjs.com/easeljs-0.8.1.min.js"></script>
 
 		<!-- Easel JS Animation-->
+		<script src="js/utilities.js" type="text/javascript"></script>
 		<script src="js/animate.js" type="text/javascript"></script>
 
 		<title>EaselJS Demo</title>
 	</head>
 	<body class="sfooter" onload="init();">
-		<div class="sfooter-content">
+		<div class="sfooter-content" onload="respondCanvas();">
 			<header>
 				<div class="container">
 					<h1>EaselJS Demo</h1>
 				</div>
 			</header>
-			<canvas id="demo-canvas"></canvas>
+			<main>
+				<canvas id="demo-canvas"></canvas>
+			</main>
 		</div>
 		<footer></footer>
 	</body>
