@@ -40,7 +40,7 @@
 		<title>EaselJS Demo</title>
 	</head>
 	<body class="sfooter" onload="init();">
-		<div class="sfooter-content" onload="respondCanvas();">
+		<div class="sfooter-content">
 			<header>
 				<nav class="navbar navbar-fixed-top">
 					<div class="container">

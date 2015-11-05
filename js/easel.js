@@ -8,7 +8,7 @@ function init() {
 	var stageWidth = document.getElementById("demo-canvas").offsetWidth;
 	var stageHeight = document.getElementById("demo-canvas").offsetHeight;
 
-	// set the width and height attrs on the html
+	// set the width and height attrs on the canvas element
 	document.getElementById("demo-canvas").setAttribute("width", stageWidth);
 	document.getElementById("demo-canvas").setAttribute("height", stageHeight);
 
