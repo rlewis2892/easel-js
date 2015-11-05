@@ -28,23 +28,27 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
 		<!-- Custom JavaScript Utility Functions-->
-		<script src="js/utilities.js" type="text/javascript"></script>
+		<script src="js/utils.js" type="text/javascript"></script>
 
 		<!-- EaselJS-->
 		<script src="//code.createjs.com/easeljs-0.8.1.min.js"></script>
 
 		<!-- Easel JS Animation-->
-		<script src="js/utilities.js" type="text/javascript"></script>
-		<script src="js/animate.js" type="text/javascript"></script>
+		<script src="js/utils.js" type="text/javascript"></script>
+		<script src="js/easel.js" type="text/javascript"></script>
 
 		<title>EaselJS Demo</title>
 	</head>
 	<body class="sfooter" onload="init();">
 		<div class="sfooter-content" onload="respondCanvas();">
 			<header>
-				<div class="container">
-					<h1>EaselJS Demo</h1>
-				</div>
+				<nav class="navbar navbar-fixed-top">
+					<div class="container">
+						<div class="navbar-header">
+							<a href="#" class="navbar-brand">EaselJS Demo</a>
+						</div>
+					</div>
+				</nav>
 			</header>
 			<main>
 				<canvas id="demo-canvas"></canvas>
